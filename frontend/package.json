@@ -4,7 +4,17 @@
     "build": "snowpack build",
     "test": "echo \"This template does not include a test runner by default.\" && exit 1"
   },
+  "dependencies": {
+    "phoenix": "1.5.9",
+    "phoenix-hooks": "^1.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
   "devDependencies": {
-    "snowpack": "^3.0.1"
+    "@snowpack/plugin-postcss": "^1.2.2",
+    "postcss": "^8.2.15",
+    "postcss-cli": "^8.3.1",
+    "snowpack": "^3.4.0",
+    "tailwindcss": "^2.1.2"
   }
 }
